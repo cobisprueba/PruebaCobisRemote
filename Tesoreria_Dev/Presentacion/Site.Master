@@ -1,0 +1,103 @@
+﻿<%@ Master Language="VB" AutoEventWireup="true" CodeBehind="Site.master.vb" Inherits="Presentacion.SiteMaster" %>
+
+<%@ Import Namespace="Presentacion" %>
+<%@ Import Namespace="Microsoft.AspNet.Identity" %>
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US"><head>
+    <meta charset="utf-8">
+    <title>Cobis .net</title>
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="Estilos/Master01/style.css" media="screen">
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="Estilos/Master01/style.responsive.css" media="all">
+
+
+    <script src="Estilos/Master01/jquery.js"></script>
+    <script src="Estilos/Master01/script.js"></script>
+    <script src="Estilos/Master01/script.responsive.js"></script>
+
+
+<style>.art-content .art-postcontent-0 .layout-item-0 { margin-bottom: 5px;  }
+.art-content .art-postcontent-0 .layout-item-1 { color: #525252; background: #DEDEDE;background: rgba(222, 222, 222, 0.5); border-spacing: 20px 10px; border-collapse: separate;  }
+.art-content .art-postcontent-0 .layout-item-2 { border-right-style:Dotted;border-right-width:1px;border-right-color:#BABABA; color: #525252; background: ; padding-right: 10px;padding-left: 10px;  }
+.art-content .art-postcontent-0 .layout-item-3 { border-right-style:solid;border-right-width:1px;border-right-color:#BABABA; color: #525252; padding-top: 0px;padding-right: 20px;padding-bottom: 20px;padding-left: 20px;  }
+.art-content .art-postcontent-0 .layout-item-4 { color: #525252; padding-right: 20px;padding-bottom: 20px;padding-left: 20px;  }
+.ie7 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+.ie6 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+
+</style></head>
+<body>
+<div id="art-main">
+<header class="art-header">
+
+    <div class="art-shapes">
+        
+            </div>
+
+                    
+</header>
+<div class="art-sheet clearfix">
+            <div class="art-layout-wrapper">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-content">
+                            <article class="art-post art-article">
+                                <div class="art-postcontent art-postcontent-0 clearfix">
+                                    <div class="art-content-layout-wrapper layout-item-0">
+                                        <div class="art-content-layout layout-item-1">
+                                            <div class="art-content-layout-row">
+                                                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                                    <p>&nbsp;</p>
+
+                                                </asp:ContentPlaceHolder>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </article>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+    <footer class="art-footer">
+        <div class="art-content-layout">
+            <div class="art-content-layout-row">
+                <div class="art-layout-cell layout-item-0" style="width: 100%">
+                    <div style="border-top:1px solid #dedede; width: 100%">
+                        <br>© 2016 - Bancóldex S.A.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</div>
+    <p class="art-page-footer">
+        <span id="art-footnote-links">Diseño y Desarrollo: Departamento de Sistemas
+            <a href="www.bancoldex.com" target="_blank">Bancóldex S.A.</a>.
+
+        </span>
+
+    </p>
+
+</div>
+
+</body>
+
+</html>
